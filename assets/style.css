@@ -1,0 +1,129 @@
+
+body {
+  background-color: #1B2631;
+  margin: 5%;
+}
+
+.title_container {
+   background-color: #010914;
+   border-radius: 5px;
+   color: white;
+   margin-bottom: 0px;
+   margin-right: 9px;
+}
+
+.title_text {
+   margin-left: 10px;
+}
+
+.create_container {
+  margin: 0px;
+  margin-top: 15px;
+  padding: 15px;
+  position: relative;
+}
+
+.adjust_title {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 1px;
+}
+
+.adjust_drop_down_lists {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.dcc_compon {
+  margin: 0 auto;
+  padding: 5px;
+  width: calc(100%-40px);
+}
+
+.fix_label {
+  font-size: 15px;
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: calc(100%-40px);
+}
+
+.grid_one_column {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.grid_height {
+    height: 155px;
+    width: 200px;
+    background-color: #010914;
+}
+
+.adjust_grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: -15px;
+}
+
+.bar_chart_height {
+  height: 450px;
+  width: 340px;
+}
+
+.container-display {
+  display: flex;
+}
+
+.flex-display {
+  display: flex;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Drop down list */
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+  background-color: #000000;
+  color: white;
+
+
+}
+
+.Select-control{
+  border: 0.5px solid green;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+  color: white;
+}
+/* Drop down list */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #010914 !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #566573;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #566573 !important;
+}
